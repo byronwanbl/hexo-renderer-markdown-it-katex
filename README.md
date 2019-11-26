@@ -40,6 +40,10 @@ markdown:
 
 Refer to [the wiki](https://github.com/hexojs/hexo-renderer-markdown-it/wiki) for more details.
 
+## KaTeX
+We use `@abreto/markdown-it-katex` plugin
+and automatically include the KaTeX stylesheet in every HTML document generated.
+
 ## Suggested plugins
 - markdown-it-deflist
 - markdown-it-abbr

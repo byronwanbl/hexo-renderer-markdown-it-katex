@@ -19,7 +19,10 @@ This renderer plugin uses [Markdown-it] as a render engine on [Hexo]. Adds suppo
 - [KaTeX] out of box
 
 ## Installation
-Follow the [installation guide](https://github.com/hexojs/hexo-renderer-markdown-it/wiki/Getting-Started).
+```sh
+yarn remove hexo-renderer-marked
+yarn add hexo-renderer-markdown-it-katex
+```
 
 ## Options
 

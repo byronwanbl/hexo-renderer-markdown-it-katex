@@ -1,7 +1,7 @@
 {
-  "name": "hexo-renderer-markdown-it",
+  "name": "hexo-renderer-markdown-it-katex",
   "version": "3.4.2",
-  "description": "Markdown-it is a Markdown parser, done right. A faster and CommonMark compliant alternative for Hexo.",
+  "description": "Supporting KaTeX out of box. Markdown-it is a Markdown parser, done right. A faster and CommonMark compliant alternative for Hexo.",
   "main": "index.js",
   "scripts": {
     "eslint": "eslint .",
@@ -10,14 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hexojs/hexo-renderer-markdown-it.git"
+    "url": "git://github.com/Abreto/hexo-renderer-markdown-it-katex.git"
   },
   "keywords": [
     "hexo",
     "renderer",
     "markdown",
     "markdown-it",
-    "hexo-renderer"
+    "hexo-renderer",
+    "katex"
   ],
   "directories": {
     "lib": "./lib"
@@ -26,13 +27,14 @@
     "index.js",
     "lib/"
   ],
-  "author": "Celso Miranda <contacto@celsomiranda.net> (http://celsomiranda.net/)",
+  "author": "Abreto Fu <m@abreto.net> (https://abreto.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hexojs/hexo-renderer-markdown-it/issues"
   },
-  "homepage": "https://github.com/hexojs/hexo-renderer-markdown-it",
+  "homepage": "https://github.com/Abreto/hexo-renderer-markdown-it-katex",
   "dependencies": {
+    "@abreto/markdown-it-katex": "^3.2.0",
     "markdown-it": "^10.0.0",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-cjk-breaks": "^1.1.2",

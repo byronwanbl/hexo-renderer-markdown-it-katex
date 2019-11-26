@@ -1,4 +1,4 @@
-# hexo-renderer-markdown-it
+# hexo-renderer-markdown-it-katex
 
 This plugin is forked from [hexo-renderer-markdown-it].
 Adds support for [KaTeX] out of box,
@@ -39,6 +39,11 @@ markdown:
 ```
 
 Refer to [the wiki](https://github.com/hexojs/hexo-renderer-markdown-it/wiki) for more details.
+
+## KaTeX
+We use `@abreto/markdown-it-katex` plugin
+and automatically include the KaTeX stylesheet in every HTML document generated.
+Current KaTeX version is `0.11.1`.
 
 ## Suggested plugins
 - markdown-it-deflist

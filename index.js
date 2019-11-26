@@ -18,6 +18,7 @@ hexo.config.markdown = Object.assign({
 }, hexo.config.markdown);
 
 const renderer = require('./lib/renderer');
+const katex = require('./lib/katex');
 
 hexo.extend.renderer.register('md', 'html', renderer, true);
 hexo.extend.renderer.register('markdown', 'html', renderer, true);
@@ -26,3 +27,5 @@ hexo.extend.renderer.register('mkdn', 'html', renderer, true);
 hexo.extend.renderer.register('mdwn', 'html', renderer, true);
 hexo.extend.renderer.register('mdtxt', 'html', renderer, true);
 hexo.extend.renderer.register('mdtext', 'html', renderer, true);
+
+hexo.extend.filter.register('after_render:html', katex.filter);

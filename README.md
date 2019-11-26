@@ -1,4 +1,4 @@
-# hexo-renderer-markdown-it
+# hexo-renderer-markdown-it-katex
 
 This plugin is forked from [hexo-renderer-markdown-it].
 Adds support for [KaTeX] out of box,

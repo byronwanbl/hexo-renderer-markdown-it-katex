@@ -1,7 +1,7 @@
 {
   "name": "hexo-renderer-markdown-it-katex",
   "version": "3.4.2+abreto.0",
-  "description": "Supporting KaTeX out of box. Markdown-it is a Markdown parser, done right. A faster and CommonMark compliant alternative for Hexo.",
+  "description": "Supporting KaTeX out of box. No need to include the stylesheet manually.",
   "main": "index.js",
   "scripts": {
     "eslint": "eslint .",

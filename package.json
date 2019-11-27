@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-markdown-it-katex",
-  "version": "3.4.2+abreto.0",
+  "version": "3.4.3+abreto.katex.0",
   "description": "Supporting KaTeX out of box. No need to include the stylesheet manually.",
   "main": "index.js",
   "scripts": {
